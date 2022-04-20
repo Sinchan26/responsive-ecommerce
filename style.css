@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+}
+h4{
+    font-size: 20px;
+}
+h6{
+    font-weight: 600;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    margin: 15px 0 20px 0;
+}
+.sec-p{
+    padding: 40px 80px;
+}
+.sec-m{
+    padding: 40px 0;
+}
+body{
+    width: 100%;
+}
+#d{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(69, 158, 51, 0.6);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    min-width: 100%;
+}
+#d img{
+    border-radius: 50%;
+    height: 30px;
+    padding: 0px 20px;
+
+}
+#d i{
+    color: rgb(15, 126, 75);
+}
+#n{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 10px;
+}
+#n li{
+    list-style: none;
+    padding: 0px 20px;
+}
+#n li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+#n li a:hover{
+    color: deepskyblue;
+
+}
+#hh{
+    background: url("jj.jfif");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 11%;
+    padding:0 80px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hh h4{
+    padding-bottom: 10px;
+    color: rgb(236, 70, 161);
+}
+#hh h2{
+    color: rgb(252, 58, 58);
+    
+}
+#hh h1{
+    color: greenyellow;
+}
+#hh button{
+    background-image: url("button.png");
+    background-color: transparent;
+    background-position: 0 11%;
+    color: aqua;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    cursor: pointer;
+}
+#feature .febox{
+    width: 180px;
+    padding: 20px;
+    float: left;
+    margin-left: 38px;
+    text-align: center;
+    border: 1px solid rgb(147, 248, 244);
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+#feature .febox:hover{
+    box-shadow: 10px 10px 54px rgba(0,0,0,0.3);
+}
+#feature .febox h6{
+    padding: 9px 8px 9px 8px;
+    color: rgb(2, 72, 2);
+    background-color: rgb(183, 104, 117);
+}
+#feature .febox img{
+    width:100%;
+    margin-bottom: 10px;
+}
+#pro{
+    text-align: center;
+}
+#pro .pro-1{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+    position: relative;
+    margin: 15px 0;
+}
+#pro .pro-1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+#pro .pro-1 .rating i{
+    font-size: 12px;
+    color: rgb(251, 202, 4);
+}
+#pro .pro-1 .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#pro .pro-1 i{
+    color: rgb(15, 126, 75);
+}
+#pro .pro-1 .c{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #E3E6F3;
+    position: absolute; 
+    bottom: 20px;
+    right: 10px;
+}
+#pro .prol{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#ban{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    height: 20vh;
+    width: 100%;
+    
+}
+#ban h2{
+    color: aliceblue;
+    
+    color: yellow;
+}
+#ban span{
+    color: red;
+}
